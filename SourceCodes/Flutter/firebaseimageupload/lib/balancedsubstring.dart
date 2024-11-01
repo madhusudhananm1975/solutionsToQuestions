@@ -104,10 +104,25 @@ List<String> balancedSubString(input)
 {
     inputText = input;
     firstChar = inputText[0];
+    secondChar = "";
+
+    firstCharCount = 1;
+    firstCharPosition = 0;
+    secondCharCount = 0; // initialize secondCharCount for future comparisons
+    secondCharPostion = -1;
+    inputLength = inputText.length;
+    largestStringSize = 0;
+    balancedStringCount = 1; //counter for number of Balanced Strings in the input
+
     int curPos = 0;
     int position = 0;
     balancedStringList = [];
-    //log('char is ',  name:inputText);
+    finalList = [];
+    finalList.clear();
+    balancedStringList.clear();
+    log('input is ',  name:inputText);
+    log('balancedStringList ', name:balancedStringList.toString());
+    log('finalList ', name: finalList.toString());
 
     if(inputText.length < 2)
     {
