@@ -164,7 +164,7 @@ function processString(input)
                 { 
                     newCharNotFound = false;
                     nextPosition = curPos;
-                    endPosition = curPos - 1; // substring is between startPosition and curPos -1  because curPos is new char
+                    endPosition = curPos; 
                     findBalancedString();
                     startPosition = nextPosition;
                     curPos = startPosition;
