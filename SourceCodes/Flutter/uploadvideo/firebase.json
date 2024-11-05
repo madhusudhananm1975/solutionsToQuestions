@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"imagestore-100","appId":"1:134469257261:android:0d040b7089a109aa6f90a4","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"imagestore-100","configurations":{"android":"1:134469257261:android:0d040b7089a109aa6f90a4"}}}}},"storage":{"rules":"storage.rules"}}
